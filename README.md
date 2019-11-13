@@ -8,7 +8,7 @@
 
 
 
-** //program to get average of five numbers\\ **
+## //program to get average of five numbers\\ **
 
 #include<stdio.h>
  int main()                                           
@@ -23,8 +23,10 @@
         printf("average of five numbers:%d\n \n",f);
  }
 
-** //Output of the program\\
+## //Output of the program\\
 5
 5                                                     
+5
+5
 5
 average of five numbers:5
