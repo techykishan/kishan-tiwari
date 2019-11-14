@@ -19,9 +19,12 @@
 
 #include<stdio.h>
 
- int main()                                           
+ int main() 
+                                          
  {
-        int a,b,c,d,e;                                       
+
+        int a,b,c,d,e;   
+                                    
         scanf("%d",&a);
 
         scanf("%d",&b);
@@ -38,6 +41,7 @@
  }
 
 ## //Output of the program\\
+
 5
 
 5  
