@@ -163,14 +163,18 @@ return 0;
 
 element[0] = 100
 
-element[1] = 101  
-                                    element[2] = 102
+element[1] = 101
+  
+element[2] = 102
+
 element[3] = 103
 
 element[4] = 104
 
-element[5] = 105   
-                                   element[6] = 106
+element[5] = 105 
+  
+element[6] = 106
+
 element[7] = 107
 
 element[8] = 108
@@ -264,18 +268,309 @@ puts("|_________________|");
 ## 7.Eventable.
 
 #include<stdio.h>
+
+int main()
+
+{
+
+int i,n;
+
+printf("\nenter a number : ");
+
+scanf("%d",&n);
+
+if(n%2==0)
+
+{
+
+for(i=0;i<=10;i++)
+
+{
+
+printf(" %d × %d = %d\n",n,i,n*i);
+
+}
+
+}
+
+else
+
+printf(" number is not a multiple of even number\n");
+
+return 0;
+
+}
+
+## //Output\\
+
+enter a number : 4
+
+ 4 × 0 = 0
+
+ 4 × 1 = 4
+
+ 4 × 2 = 8 
+ 
+ 4 × 3 = 12
+
+ 4 × 4 = 16
+
+ 4 × 5 = 20
+
+ 4 × 6 = 24
+
+ 4 × 7 = 28
+
+ 4 × 8 = 32
+
+ 4 × 9 = 36
+
+ 4 × 10 = 40
+
+## 8.Total experience.
+
+#include<stdio.h>
+
+int main(){
+
+printf("enter number of employees:");
+
+int n;
+
+scanf("%d",&n);
+
+int exp,sum=0;
+
+for(int i=1;i<=n;i++){
+
+printf("enter experience of %d th employees (in years$
+
+scanf("%d",&exp);
+
+sum=sum+exp;
+
+}
+
+printf("%d\n",sum);
+
+return 0;}
+
+## //Output\\
+
+enter number of employees:6
+
+enter experience of 1 th employees (in years)  :5
+
+enter experience of 2 th employees (in years)  :5
+
+enter experience of 3 th employees (in years)  :5
+
+enter experience of 4 th employees (in years)  :5
+
+enter experience of 5 th employees (in years)  :5
+
+enter experience of 6 th employees (in years)  :5
+
+30
+
+## 9. Factorial.
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int a,i,f=1;
+
+printf("enter the number :");
+
+scanf(" %d",&a);
+
+for(i=1;i<=a;i++)
+
+f=f*i;
+
+printf(" factorial of given number :%d",f);
+
+}
+
+## //Output\\
+
+enter the number :6
+factorial of given number :720
+
+## 10.Farenheit.
+
+#include<stdio.h> 
+
+int main()
+
+{  
+
+int f;
+
+printf(" value of farenheit = "); 
+ 
+scanf("%d",&f);
+
+int celcious = 273+f;// f= farenheit
+
+printf("value of celcious given out to be = %d",celci$
+
+return 0;
+
+}
+
+## //Output\\
+
+value of farenheit = 273
+
+value of celcious given out to be = 546
+
+
+## 11.Fizz.
+
+#include<stdio.h>
+
 int main()
 {
-int i,n;
-printf("\nenter a number : ");                        scanf("%d",&n);
-if(n%2==0)
+int a,b,c;
+
+printf("enter the value :",a);
+
+scanf("%d",&a);
+
+if(a%3==0) 
+
+printf("fizz");
+
+if(a%5==0)
+
+printf("buzz");
+
+else if (a%15==0)
+
+printf("fizz buzz ");
+
+else ("%d",a);
+
+return 0; 
+
+}
+
+## //Output\\
+
+enter the value :6
+
+fizz 
+
+## 12.Floatexample
+
+#include<stdio.h>
+
+int main() 
+
+  {   
+                           
+float age;
+
+age=18.6;
+
+printf("%f\n" , age);
+
+    }
+
+## //Output\\
+
+18.6000  
+
+## 13.Function
+
+#include<stdio.h>
+
+int message();
+
+int name();
+
+int department();  
+
+int main()
+
 {
-for(i=0;i<=10;i++)
+
+ message();
+
+ name();
+
+ department();
+
+ face();
+
+}
+
+int message()
+
 {
-printf(" %d × %d = %d\n",n,i,n*i);
+
+puts("    GURU NANAK DEV ENGINEERING COLLEGE  ");
+
 }
+
+int name()
+
+{
+
+puts("    ------------------------"); 
+
+puts("   |name : kishan tiwari|");
+
+puts("    ------------------------");
+
 }
-else
-printf(" number is not a multiple of even number\n");
-                                                      return 0;
-}
+
+int department() 
+
+  {                                   
+
+puts("     branch : IT (A2)"); 
+
+                       } 
+                                                    
+int face()
+
+{
+
+puts(" ____"); 
+                              
+puts(" ____");
+
+puts("//+  +\\")
+
+ puts("| *   |");
+
+puts("\\ -- //");}
+
+## //Output\\
+
+  GURU NANAK DEV ENGINEERING COLLEGE
+
+    ------------------------
+
+   |name : kishan tiwari|
+
+    ------------------------
+
+     branch : IT (A2)
+
+ ____
+
+//+  +\
+
+|   *  |
+
+\  --/ 
+
+## 14.
+
+                                                             
