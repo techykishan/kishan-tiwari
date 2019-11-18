@@ -14,7 +14,7 @@
 
 
 
-## //program to get average of five numbers\\ **
+## // 1.program to get average of five numbers\\ **
 
 #include<stdio.h>
 
@@ -56,18 +56,29 @@ average of five numbers:5
 ##//Addition \\
 
 #include<stdio.h>
+
 int main()
-{                                                                  int a=100;
+
+{
+                                                                  int a=100;
         int b=10;
+
         int c;
+
         c=a+b;
+
         printf("\n%d\n\n",c);
+
         return 0;
+
 }
 
+
 ##//Output \\
+
 
 110
 
 
-##//Arithmetic
+##// 2.Arithmetic\\
+
