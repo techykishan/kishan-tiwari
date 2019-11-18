@@ -53,7 +53,7 @@
 
 average of five numbers:5
 
-##//Addition \\
+## //Addition \\
 
 #include<stdio.h>
 
@@ -74,11 +74,11 @@ int main()
 }
 
 
-##//Output \\
+## //Output \\
 
 
 110
 
 
-##// 2.Arithmetic\\
+## // 2.Arithmetic\\
 
