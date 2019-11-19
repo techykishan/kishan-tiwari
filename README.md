@@ -14,6 +14,8 @@
 
 
 
+****************        ****************
+
 ## 1.program to get average of five numbers.
 
 #include<stdio.h>
@@ -800,6 +802,173 @@ printf("\n n%i is prime number \n",i);
 }
 
 ## //Output\\
+
+enter the number :5
+
+ n5 is prime number
+
+## 21.Prime range.
+
+#include<stdio.h>
+
+int main(){
+
+int i,j,e,s,p;
+
+    printf("enter a starting number");
+
+    scanf("%d",&s);
+
+    printf("enter ending number");
+
+    scanf("%d",&e);
+
+    for(i=s;i<=e;i++)
+
+    {
+
+     p=0;
+
+    for(j=2;j<i;j++)
+
+    {
+
+    if (i%j==0)
+
+    {
+
+     p=1;
+
+     }
+
+     }
+    if(p==1)
+
+    printf("\n%d are not prime",j);
+
+    else
+
+    printf("\n%d are prime",j);
+
+    }
+
+    return(0);
+
+}
+
+## //Output\\
+
+enter a starting number6
+
+enter ending number8
+
+6 are not prime
+
+7 are prime
+
+8 are not prime.
+
+## 22.structure
+
+#include<stdio.h>
+
+ struct student
+
+{
+
+char name[20];
+
+float age;
+
+char gender;
+
+};
+
+int main()
+
+{
+
+struct patient p;
+
+printf("enter the name : "); 
+ 
+scanf("%s",p.name);
+
+printf("enter the age :");
+
+scanf("%f",p.age);
+
+printf("enter the gender :");
+
+scanf("%c",p.gender);
+
+return 0;
+
+}
+
+## //Output\\
+
+## 23.Show matrix.
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int a=1,b=2,c=3,d=4;
+
+int a1=1,b1=2,c1=3,d1=4;
+
+printf( " ___    ___\n");
+
+ printf ("| 1      2 |\n");
+
+printf( "| 3      4 |\n");
+
+printf( "|___    ___|\n");
+
+ int e=a%a1+b%c;
+
+int f=a%b1+b%d1;
+
+int g=c%a1+d%c1;
+
+int h=c%b1+d%d1;
+
+printf(" ___     ___\n");
+
+ printf("| %d      %d |\n",e,f);
+
+printf("| %d      %d |\n",g,h);  
+
+printf("|___     ___|\n");
+
+}
+
+## //Output\\
+
+ ___    ___
+
+| 1      2 |
+
+| 3      4 |
+
+|___    ___|
+
+ ___     ___
+
+| 2      3 |
+
+| 1      1 |
+
+|___     ___|
+
+**************        *************
+
+
+
+
 
 
 
