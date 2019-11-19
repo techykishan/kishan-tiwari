@@ -55,7 +55,7 @@
 
 average of five numbers:5
 
-## 2. Addition .
+## 2. Addition of two numbers.
 
 #include<stdio.h>
 
@@ -231,7 +231,7 @@ c=0
 
 c=0
 
-## 6.Calculator.
+## 6.  program to print a Calculator.
 
 puts("|-----------------|");  
 
@@ -267,7 +267,7 @@ puts("|_________________|");
 |     0     |  *  |
 |_________________|
 
-## 7.Eventable.
+## 7. Program to print a Eventable.
 
 #include<stdio.h>
 
@@ -329,7 +329,7 @@ enter a number : 4
 
  4 × 10 = 40
 
-## 8.Total experience.
+## 8.program to print Total experience of employees.
 
 #include<stdio.h>
 
@@ -375,7 +375,7 @@ enter experience of 6 th employees (in years)  :5
 
 30
 
-## 9. Factorial.
+## 9.program to find Factorial of a number.
 
 #include<stdio.h>
 
@@ -402,7 +402,7 @@ printf(" factorial of given number :%d",f);
 enter the number :6
 factorial of given number :720
 
-## 10.Farenheit.
+## 10.program to find Farenheit values to celcious.
 
 #include<stdio.h> 
 
@@ -431,7 +431,7 @@ value of farenheit = 273
 value of celcious given out to be = 546
 
 
-## 11.Fizz.
+## 11.program for Fizz buzz.
 
 #include<stdio.h>
 
@@ -467,7 +467,7 @@ enter the value :6
 
 fizz 
 
-## 12.Floatexample
+## 12.program for Floatexample.
 
 #include<stdio.h>
 
@@ -487,7 +487,7 @@ printf("%f\n" , age);
 
 18.6000  
 
-## 13.Function
+## 13.program for using Function.
 
 #include<stdio.h>
 
@@ -573,7 +573,7 @@ puts("\\ -- //");}
 
 \  --/ 
 
-## 14.Getchar.
+## 14.program to use Getchar.
 
 #include <stdio.h>
  
@@ -590,7 +590,7 @@ return 0;}
 5
 You entered: 5 
 
-## 15.Hello
+## 15.program to print hello world.
 
    #include<stdio.h>
 
