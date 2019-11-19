@@ -571,6 +571,237 @@ puts("\\ -- //");}
 
 \  --/ 
 
-## 14.
+## 14.Getchar.
 
-                                                             
+#include <stdio.h>
+ 
+int main() { 
+
+char a=getchar();
+
+printf("You entered: %c", a);
+                       
+return 0;}
+
+## //Output\\
+
+5
+You entered: 5 
+
+## 15.Hello
+
+   #include<stdio.h>
+
+ int main() 
+
+  {    
+                                    
+printf("hello world"); 
+
+                               } 
+
+## //Output\\
+
+ hello world 
+
+## 16.Loop
+
+   #include<stdio.h>
+
+int main() 
+
+  {  
+                                       
+        printf("it will print 1 to 10 numbers");
+ 
+             for(int i=1;i<11;i++) 
+
+                                 {
+
+        printf("\n");
+
+        printf("%d",i); 
+                                      }
+ return 0;
+
+} 
+
+## //Output\\
+
+   it will print 1 to 10 numbers
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+
+## 17.Odd .
+
+#include<stdio.h>
+
+int main()
+
+{   
+int a;                                               
+scanf("%d",&a);
+
+if(a%2==0)
+
+printf("even number");
+
+else
+
+printf("odd number\n\n");}
+
+## //Output\\
+
+enter a number :6
+
+even 
+
+## 18.Operator.
+
+#include<stdio.h>
+
+int main() 
+                                           
+{int a,b;
+
+char i;
+
+printf("enter value of a and b =");
+
+scanf("%d %d \n",&a,&b);
+
+printf("enter the operator =");
+
+scanf("%c",&i);
+
+switch (i)
+
+{
+
+case '+' :
+
+         printf(" %d ",a+b);
+
+                break;
+
+case '-' :
+
+         printf(" %d",a-b);
+
+                break;
+
+case '*' :
+
+printf("%d",a*b)
+
+break;
+
+case '/' :
+
+printf("%d",a/b);
+
+default : printf("enter the correct value");
+
+}
+
+return 0;
+
+}
+
+## //Output\\
+
+## 19.Positive number.
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int a;
+
+printf("enter any integer : ");
+
+scanf("%d",&a);
+
+if(a>0)
+
+printf("integer is positive\n\n ");
+
+else
+
+printf(" integer is negative\n\n");
+
+}
+
+## //Output\\
+
+enter any integer : 6
+
+integer is positive
+
+## 20.Prime number.
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int i,num,count;
+
+count=0;
+
+printf("\n enter the number :");
+
+scanf("%d",&num);
+
+for(i=2;i<num;i++)
+
+{
+
+if((num%i)==0)
+
+{
+
+count==1;
+
+  break;
+
+}}
+
+if(count==1)
+
+printf("\nn%i is not prime number \n",i);
+
+            else
+
+printf("\n n%i is prime number \n",i);
+
+}
+
+## //Output\\
+
+
+
+
+
