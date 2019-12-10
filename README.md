@@ -56,7 +56,7 @@
 
 average of five numbers:5
 
-## 2. Addition of two numbers.
+## 2. Program for Addition of two numbers.
 
 #include<stdio.h>
 
@@ -83,7 +83,7 @@ int main()
 110
 
 
-## 3.Arithmetic.
+## 3. Program for Arithmetic.
 
 #include<stdio.h>
 
@@ -130,7 +130,7 @@ a/b = 2
 remainder when a divided by b = 1
 
 
-## 4.Array .
+## 4. Progam for Array .
 
 #include<stdio.h>
 
@@ -184,7 +184,7 @@ element[8] = 108
 
 element[9] = 109
 
-## 5.Assignment.
+## 5. Program for using Assignment.
 
 include<stdio.h>  
  
