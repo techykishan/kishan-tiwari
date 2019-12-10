@@ -17,7 +17,7 @@
 
  ## ****************        **************** 
 
-## 1.program to get average of five numbers.
+## 1.Program to get average of five numbers.
 
 #include<stdio.h>
 
@@ -232,7 +232,7 @@ c=0
 
 c=0
 
-## 6.  program to print a Calculator.
+## 6.Program to print a Calculator.
 
 puts("|-----------------|");  
 
@@ -268,7 +268,7 @@ puts("|_________________|");
 |     0     |  *  |
 |_________________|
 
-## 7. Program to print a Eventable.
+## 7.Program to print a Eventable.
 
 #include<stdio.h>
 
@@ -330,7 +330,7 @@ enter a number : 4
 
  4 × 10 = 40
 
-## 8.program to print Total experience of employees.
+## 8.Program to print Total experience of employees.
 
 #include<stdio.h>
 
@@ -376,7 +376,7 @@ enter experience of 6 th employees (in years)  :5
 
 30
 
-## 9.program to find Factorial of a number.
+## 9.Program to find Factorial of a number.
 
 #include<stdio.h>
 
@@ -403,7 +403,7 @@ printf(" factorial of given number :%d",f);
 enter the number :6
 factorial of given number :720
 
-## 10.program to find Farenheit values to celcious.
+## 10.Program to find Farenheit values to celcious.
 
 #include<stdio.h> 
 
@@ -432,7 +432,7 @@ value of farenheit = 273
 value of celcious given out to be = 546
 
 
-## 11.program for Fizz buzz.
+## 11.Program for Fizz buzz.
 
 #include<stdio.h>
 
@@ -468,7 +468,7 @@ enter the value :6
 
 fizz 
 
-## 12.program for Floatexample.
+## 12.Program for Floatexample.
 
 #include<stdio.h>
 
@@ -488,7 +488,7 @@ printf("%f\n" , age);
 
 18.6000  
 
-## 13.program for using Function.
+## 13.Program for using Function.
 
 #include<stdio.h>
 
@@ -574,7 +574,7 @@ puts("\\ -- //");}
 
 \  --/ 
 
-## 14.program to use Getchar.
+## 14.Program to use Getchar.
 
 #include <stdio.h>
  
@@ -591,7 +591,7 @@ return 0;}
 5
 You entered: 5 
 
-## 15.program to print hello world.
+## 15.Program to print hello world.
 
    #include<stdio.h>
 
@@ -607,7 +607,7 @@ printf("hello world");
 
  hello world 
 
-## 16.Loop
+## 16.Program to print Loop.
 
    #include<stdio.h>
 
@@ -654,7 +654,7 @@ int main()
 10
 
 
-## 17.Odd .
+## 17.Program to find no.is odd or even.
 
 #include<stdio.h>
 
@@ -678,7 +678,7 @@ enter a number :6
 
 even 
 
-## 18.Operator.
+## 18.Program for Operator.
 
 #include<stdio.h>
 
@@ -732,7 +732,7 @@ return 0;
 
 ## //Output\\
 
-## 19.Positive number.
+## 19.Program to find no. is positive or negative.
 
 #include<stdio.h>
 
@@ -762,7 +762,7 @@ enter any integer : 6
 
 integer is positive
 
-## 20.Prime number.
+## 20.Program to find no. is prime.
 
 #include<stdio.h>
 
@@ -808,7 +808,7 @@ enter the number :5
 
  n5 is prime number
 
-## 21.Prime range.
+## 21.Program for Prime range.
 
 #include<stdio.h>
 
@@ -869,7 +869,7 @@ enter ending number8
 
 8 are not prime.
 
-## 22.structure
+## 22. Program for Structure.
 
 #include<stdio.h>
 
@@ -909,7 +909,7 @@ return 0;
 
 ## //Output\\
 
-## 23.Show matrix.
+## 23. Program to Show matrix.
 
 #include<stdio.h>
 
