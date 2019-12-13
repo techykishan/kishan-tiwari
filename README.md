@@ -1,4 +1,4 @@
-# ** GURU NANAK DEV ENGENEERING COLLEGE,LUDHIANA(PUNJAB) **
+## ** GURU NANAK DEV ENGENEERING COLLEGE,LUDHIANA(PUNJAB) **
 ![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg) 
 # ** PROGRAMMING FOR PROGRAM SOLVING ESC-18105 **
 ## NAME- KISHAN TIWARI 
@@ -17,7 +17,7 @@
 
  ## ****************        **************** 
 
-## 1.Program to get average of five numbers.
+### 1.Program to get average of five numbers.
 
 #include<stdio.h>
 
