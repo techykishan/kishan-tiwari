@@ -764,49 +764,49 @@ integer is positive
 
 ## 20.Program to find no. is prime.
 
-#include<stdio.h>
+#include<stdio.h> 
+ 
+ int main()
 
-int main()
+{      
+ 
+int n,i,count=0;  
 
+printf("enter the no.");
+
+scanf("%d",&n);
+
+for(i=1;i<=n;i++)
+                                                                 
 {
 
-int i,num,count;
-
-count=0;
-
-printf("\n enter the number :");
-
-scanf("%d",&num);
-
-for(i=2;i<num;i++)
-
+if(n%i==0)
+ 
 {
 
-if((num%i)==0)
-
-{
-
-count==1;
-
-  break;
-
-}}
-
-if(count==1)
-
-printf("\nn%i is not prime number \n",i);
-
-            else
-
-printf("\n n%i is prime number \n",i);
+Count++
 
 }
 
+}
+
+if(count==2)
+
+printf("prime no.\n");
+
+else  
+ 
+printf("not prime no.\n");
+
+}
+                                          
+
 ## //Output\\
 
-enter the number :5
+enter the no.6
 
- n5 is prime number
+not prime no.
+
 
 ## 21.Program for Prime range.
 
