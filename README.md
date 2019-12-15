@@ -42,7 +42,7 @@
         printf("average of five numbers:%d\n \n",f);
  }
 
-## //Output of the program\\
+### //Output of the program\\
 
 5
 
@@ -56,7 +56,7 @@
 
 average of five numbers:5
 
-## 2. Program for Addition of two numbers.
+### 2. Program for Addition of two numbers.
 
 #include<stdio.h>
 
@@ -77,13 +77,13 @@ int main()
 }
 
 
-## //Output \\
+### //Output \\
 
 
 110
 
 
-## 3. Program for Arithmetic.
+### 3. Program for Arithmetic.
 
 #include<stdio.h>
 
@@ -117,7 +117,7 @@ return 0;
 
 }
 
-## // Output\\
+### // Output\\
 
 a+b = 13
 
@@ -130,7 +130,7 @@ a/b = 2
 remainder when a divided by b = 1
 
 
-## 4. Progam for Array .
+### 4. Progam for Array .
 
 #include<stdio.h>
 
@@ -162,7 +162,8 @@ return 0;
 
 }
 
-## //Output\\
+### //Output\\
+
 
 element[0] = 100
 
@@ -184,7 +185,8 @@ element[8] = 108
 
 element[9] = 109
 
-## 5. Program for using Assignment.
+
+### 5. Program for using Assignment.
 
 include<stdio.h>  
  
@@ -220,7 +222,8 @@ return 0;
 
 }
 
-## //Output\\
+### //Output\\
+
 
 c=5
 
@@ -232,7 +235,7 @@ c=0
 
 c=0
 
-## 6.Program to print a Calculator.
+### 6.Program to print a Calculator.
 
 puts("|-----------------|");  
 
@@ -254,7 +257,7 @@ puts("|_________________|");
 
 }
 
-## //Output\\
+### //Output\\
 
  _________________
 |                 |
@@ -268,7 +271,8 @@ puts("|_________________|");
 |     0     |  *  |
 |_________________|
 
-## 7.Program to print a Eventable.
+
+### 7.Program to print a Eventable.
 
 #include<stdio.h>
 
@@ -304,7 +308,7 @@ return 0;
 
 }
 
-## //Output\\
+### //Output\\
 
 enter a number : 4
 
@@ -330,7 +334,7 @@ enter a number : 4
 
  4 × 10 = 40
 
-## 8.Program to print Total experience of employees.
+### 8.Program to print Total experience of employees.
 
 #include<stdio.h>
 
@@ -358,7 +362,8 @@ printf("%d\n",sum);
 
 return 0;}
 
-## //Output\\
+
+### //Output\\
 
 enter number of employees:6
 
@@ -376,7 +381,8 @@ enter experience of 6 th employees (in years)  :5
 
 30
 
-## 9.Program to find Factorial of a number.
+
+### 9.Program to find Factorial of a number.
 
 #include<stdio.h>
 
@@ -401,9 +407,11 @@ printf(" factorial of given number :%d",f);
 ## //Output\\
 
 enter the number :6
+
 factorial of given number :720
 
-## 10.Program to find Farenheit values to celcious.
+
+### 10.Program to find Farenheit values to celcious.
 
 #include<stdio.h> 
 
@@ -425,14 +433,16 @@ return 0;
 
 }
 
-## //Output\\
+
+### //Output\\
+
 
 value of farenheit = 273
 
 value of celcious given out to be = 546
 
 
-## 11.Program for Fizz buzz.
+### 11.Program for Fizz buzz.
 
 #include<stdio.h>
 
@@ -462,13 +472,16 @@ return 0;
 
 }
 
-## //Output\\
+
+### //Output\\
+
 
 enter the value :6
 
-fizz 
+fizz
 
-## 12.Program for Floatexample.
+
+### 12.Program for Floatexample.
 
 #include<stdio.h>
 
@@ -488,7 +501,8 @@ printf("%f\n" , age);
 
 18.6000  
 
-## 13.Program for using Function.
+
+### 13.Program for using Function.
 
 #include<stdio.h>
 
@@ -554,7 +568,9 @@ puts("//+  +\\")
 
 puts("\\ -- //");}
 
-## //Output\\
+
+### //Output\\
+
 
   GURU NANAK DEV ENGINEERING COLLEGE
 
@@ -574,7 +590,8 @@ puts("\\ -- //");}
 
 \  --/ 
 
-## 14.Program to use Getchar.
+
+### 14.Program to use Getchar.
 
 #include <stdio.h>
  
@@ -586,16 +603,18 @@ printf("You entered: %c", a);
                        
 return 0;}
 
-## //Output\\
+### //Output\\
 
 5
+
 You entered: 5 
 
-## 15.Program to print hello world.
 
-   #include<stdio.h>
+### 15.Program to print hello world.
 
- int main() 
+#include<stdio.h>
+
+int main() 
 
   {    
                                     
@@ -603,13 +622,13 @@ printf("hello world");
 
                                } 
 
-## //Output\\
+### //Output\\
 
  hello world 
 
-## 16.Program to print Loop.
+### 16.Program to print Loop.
 
-   #include<stdio.h>
+#include<stdio.h>
 
 int main() 
 
@@ -629,7 +648,7 @@ int main()
 
 } 
 
-## //Output\\
+### //Output\\
 
    it will print 1 to 10 numbers
 
@@ -654,7 +673,7 @@ int main()
 10
 
 
-## 17.Program to find no.is odd or even.
+### 17.Program to find no.is odd or even.
 
 #include<stdio.h>
 
@@ -678,7 +697,8 @@ enter a number :6
 
 even 
 
-## 18.Program for Operator.
+
+### 18.Program for Operator.
 
 #include<stdio.h>
 
@@ -730,9 +750,10 @@ return 0;
 
 }
 
-## //Output\\
+### //Output\\
 
-## 19.Program to find no. is positive or negative.
+
+### 19.Program to find no. is positive or negative.
 
 #include<stdio.h>
 
@@ -756,13 +777,14 @@ printf(" integer is negative\n\n");
 
 }
 
-## //Output\\
+### //Output\\
 
 enter any integer : 6
 
 integer is positive
 
-## 20.Program to find no. is prime.
+
+### 20.Program to find no. is prime.
 
 #include<stdio.h> 
  
@@ -801,14 +823,14 @@ printf("not prime no.\n");
 }
                                           
 
-## //Output\\
+### //Output\\
 
 enter the no.6
 
 not prime no.
 
 
-## 21.Program for Prime range.
+### 21.Program for Prime range.
 
 #include<stdio.h>
 
@@ -857,7 +879,7 @@ int i,j,e,s,p;
 
 }
 
-## //Output\\
+### //Output\\
 
 enter a starting number6
 
@@ -869,47 +891,87 @@ enter ending number8
 
 8 are not prime.
 
-## 22. Program for Structure.
+### 22. Program for adding two matrices.
 
 #include<stdio.h>
-
- struct student
-
-{
-
-char name[20];
-
-float age;
-
-char gender;
-
-};
 
 int main()
 
 {
 
-struct patient p;
+int m,n,c,d,first[10][10],second[10][10],sum[10][10];
 
-printf("enter the name : "); 
- 
-scanf("%s",p.name);
+printf("enter the no.of rows and columns\n");
 
-printf("enter the age :");
+scanf("%d%d",&m,&n);
 
-scanf("%f",p.age);
+printf("enter element of first matrix\n");
 
-printf("enter the gender :");
+for(c=0;c=m;c++)
 
-scanf("%c",p.gender);
+for(d=0;d=n;d++)
+
+scanf("%d",first[10][10]);
+
+printf("enter element of second matrix\n");
+
+for(c=0;c=m;c++)
+
+for(d=0;d=n;d++)
+
+scanf("%d",second[10][10]);
+
+for(c=0;c=m;c++)
+
+for(d=0;d=n;d++)
+
+sum[c][d]=first[10][10]+second[10][10];
+
+printf("sum of entered matrices\n");
+
+for(c=0;c=m;c++)
+
+{
+
+for(d=0;d=n;d++)
+
+printf("%d\n",sum[10][10]);
+
+printf("\n");
+
+}
 
 return 0;
 
 }
 
-## //Output\\
+### //Output\
 
-## 23. Program to Show matrix.
+Enter no. Of rows and columns
+2 
+
+2
+
+Enter the element of first mstrix
+
+2 2
+
+2 2
+
+Enter the element of second matrix
+
+2 2
+
+2 2
+
+Sum of entered matrices
+
+4 4 
+
+4 4
+
+
+### 23. Program to Show matrix.
 
 #include<stdio.h>
 
@@ -947,7 +1009,7 @@ printf("|___     ___|\n");
 
 }
 
-## //Output\\
+### //Output\\
 
  ___    ___
 
