@@ -610,21 +610,41 @@ return 0;}
 You entered: 5 
 
 
-### 15.Program to print hello world.
+### 15.#include<stdio.h> 
+ 
+unsigned long long int factorial(unsigned int i)
 
-#include<stdio.h>
+{
 
-int main() 
+if(i<=1)
 
-  {    
-                                    
-printf("hello world"); 
+{
 
-                               } 
+return1;
+
+   }
+
+ return i*factorial(i-1);
+
+}  
+     
+ int main()
+
+{
+
+int i=12;
+
+printf("factorial of %d is %d \n",i,factorial(i));
+
+return 0;
+
+}
 
 ### //Output\\
 
- hello world 
+factorial of 12 is 479001600.
+
+
 
 ### 16.Program to print Loop.
 
