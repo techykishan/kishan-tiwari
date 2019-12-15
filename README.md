@@ -1,5 +1,5 @@
 ## ** GURU NANAK DEV ENGENEERING COLLEGE,LUDHIANA(PUNJAB) **
-![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg) 
+[LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg) 
 # ** PROGRAMMING FOR PROGRAM SOLVING ESC-18105 **
 ## NAME- KISHAN TIWARI 
 ## ROLL NO- 1921056 
