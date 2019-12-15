@@ -742,15 +742,15 @@ switch (i)
 
 case '+' :
 
-         printf(" %d ",a+b);
+printf(" %d ",a+b);
 
-                break;
+break;
 
 case '-' :
 
-         printf(" %d",a-b);
+printf(" %d",a-b);
 
-                break;
+break;
 
 case '*' :
 
@@ -762,6 +762,8 @@ case '/' :
 
 printf("%d",a/b);
 
+Break;
+
 default : printf("enter the correct value");
 
 }
@@ -771,6 +773,13 @@ return 0;
 }
 
 ### //Output\\
+
+enter value of a and b =5 6 
+  
+enter the operator =%
+
+enter the correct value
+
 
 
 ### 19.Program to find no. is positive or negative.
